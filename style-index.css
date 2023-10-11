@@ -1,0 +1,39 @@
+body {
+  background: #0e9aa7;
+  font-family: cursive;
+}
+
+h1 {
+  color: #f6cd61;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  color: #f6cd61;
+  text-align: center;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+  float: left;
+  color: #f6cd61;
+}
+
+p {
+  font-family: monospace;
+  color: #4a4e4d;
+}
+
+img {
+  border-color: #fe8a71;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  width: 250px;
+}
+
+a {
+  font-size: 20px;
+}
