@@ -1,6 +1,6 @@
 body {
   background: #0e9aa7;
-  font-family: cursive;
+  font-family: monospace;
 }
 
 h1 {
@@ -10,19 +10,12 @@ h1 {
 }
 
 h2 {
-  color: #f6cd61;
-  text-align: center;
-  font-size: 40px;
-}
-
-h3 {
   font-size: 30px;
   float: left;
   color: #f6cd61;
 }
 
 p {
-  font-family: monospace;
   color: #4a4e4d;
 }
 
@@ -34,6 +27,24 @@ img {
   width: 250px;
 }
 
-a {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fe8a71;
+}
+
+li {
+  float: left;
+}
+
+li a {
   font-size: 20px;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: #4a4e4d;
+  font-weight: bold;
+  text-decoration: none;
 }
