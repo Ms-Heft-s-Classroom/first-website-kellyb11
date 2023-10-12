@@ -55,6 +55,24 @@ img {
   width: 250px;
 }
 
-a {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #386994;
+}
+
+li {
+  float: left;
+}
+
+li a {
   font-size: 20px;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: #bdd9cd;
+  font-weight: bold;
+  text-decoration: none;
 }
